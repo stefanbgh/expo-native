@@ -1,51 +1,30 @@
-# Welcome to your Expo app 👋
+# Expo-Native
+OpenAI Integration with ChatGPT and DALL-E
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Version
+- Current application version: 1.0.0
 
-## Get started
+## Author
+- Stefan Blagojevic
 
-1. Install dependencies
+## Technical Details
+- Tech Stack: Expo, React Native, TypeScript
 
-   ```bash
-   npm install
-   ```
+## APIs
+- OpenAI: ChatGPT & DALL-E
 
-2. Start the app
+## Features
+- **ChatGPT Integration**: Users can interact with ChatGPT for real-time, AI-driven conversations.
+- **DALL-E Image Generation**: Generate images based on user inputs through the DALL-E API.
+- **Mobile Interface**: User-friendly design for easy interaction and navigation.
 
-   ```bash
-    npx expo start
-   ```
+## Tools
+- **Expo**: Used for building and running the app.
+- **QR Code**: Scan the QR code below to download the APK directly to your device.
 
-In the output, you'll find options to open the app in a
+## APK Installation
+- Scan the QR code below to download and install the APK on your mobile device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![APK QR Code](/assets/images/qr-code.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# expo-native
+### Enjoy!
