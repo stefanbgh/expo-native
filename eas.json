@@ -1,0 +1,31 @@
+{
+	"cli": {
+		"version": ">= 12.6.2",
+		"appVersionSource": "remote"
+	},
+	"build": {
+		"development": {
+			"developmentClient": true,
+			"distribution": "internal"
+		},
+		"preview": {
+			"distribution": "internal",
+			"env": {
+				"EXPO_PUBLIC_CHATGPT_URL": "@EXPO_PUBLIC_CHATGPT_URL",
+				"EXPO_PUBLIC_DALLE_URL": "@EXPO_PUBLIC_DALLE_URL",
+				"EXPO_PUBLIC_API_KEY": "@EXPO_PUBLIC_API_KEY"
+			}
+		},
+		"production": {
+			"autoIncrement": true,
+			"env": {
+				"EXPO_PUBLIC_CHATGPT_URL": "@EXPO_PUBLIC_CHATGPT_URL",
+				"EXPO_PUBLIC_DALLE_URL": "@EXPO_PUBLIC_DALLE_URL",
+				"EXPO_PUBLIC_API_KEY": "@EXPO_PUBLIC_API_KEY"
+			}
+		}
+	},
+	"submit": {
+		"production": {}
+	}
+}
