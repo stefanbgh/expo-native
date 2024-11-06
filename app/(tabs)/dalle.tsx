@@ -1,11 +1,11 @@
-import React from "react";
+import React, { FC } from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useRouter } from "expo-router";
 
 import styles from "@/styles";
 import img from "../../assets/images/logo.png";
 
-const dallePage = () => {
+const DallePage: FC = (): JSX.Element => {
 	const router = useRouter();
 
 	const handlePress = () => {
@@ -88,4 +88,4 @@ const dallePage = () => {
 	);
 };
 
-export default dallePage;
+export default DallePage;
