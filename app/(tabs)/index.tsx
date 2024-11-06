@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { FC } from "react";
+
+import Header from "@/components/Header";
 
 const App: FC = (): JSX.Element => {
 	return (
-		<View>
-			<Text>Hello World!</Text>
-		</View>
+		<SafeAreaView>
+			<Header title="Welcome!" desc="This is a OpenAI application." />
+		</SafeAreaView>
 	);
 };
 
